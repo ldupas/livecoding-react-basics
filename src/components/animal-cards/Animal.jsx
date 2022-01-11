@@ -1,17 +1,17 @@
 import React from 'react';
 import './Animal.css';
 
-const Animal = ({ name, species, age, image }) => {
+function Animal({ animal }) {
     return (
-        <div className='Animal'>
-            <div className='animal-cards'>
-                <img className='animal-img' src={image} alt={name} />
-                <div className='animal-desc'>
-                    <h3>{name}</h3>
-                    <span>Espèce : {species}</span>
-                    <span>Âge : {age}</span>
+        <div className="Animal">
+            <div className="animals-cards">
+                <img className="animal-img" src={animal.image} alt={animal.name} />
+                <div className="animal-desc">
+                    <h3>{animal.name}</h3>
+                    <span>Espèce: {animal.species}</span>
+                    <span>Âge : {animal.age}</span>
                 </div>
-            </div>            
+            </div>
         </div>
     )
 }

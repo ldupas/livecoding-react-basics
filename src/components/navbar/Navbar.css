@@ -16,14 +16,14 @@
     margin: auto;
 }
 
-.navigation a {
+.navigation-link {
     text-decoration: none;
     color: var(--main-color);
     width: 20%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 30px;
 }
 
-.navigation a:hover {
+.navigation-link:hover {
     color: var(--fourth-color);
 }
