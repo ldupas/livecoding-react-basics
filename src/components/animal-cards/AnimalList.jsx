@@ -13,7 +13,7 @@ const AnimalList = () => {
     //     .catch(console.error)
     // }, [])
 
-    const url = "https://a.nacapi.com/zoolivecoding"
+    const url = "https://a.nacapi.com/zoolive"
 
     useEffect(() => {
         axios
