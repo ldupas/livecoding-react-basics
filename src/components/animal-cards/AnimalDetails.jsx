@@ -12,7 +12,7 @@ const AnimalDetails = () => {
         .then((res) => {
             setAnimalInfos(res.data)
         })
-    }, [])
+    }, [params.id])
 
     return (
         <div>
